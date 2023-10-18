@@ -5,5 +5,5 @@ The idea is to measure some kind of "topological affinity" among a protein at re
 This topological affinity $a : \mathcal P \times \mathcal P \rightarrow [0,1]$  measures how much bonds are similar in the perturbed version of the protein. <br>
 The objective of the project is to solve the following optimization problem
 <br>
-$\text{Given} p \in \mathcal P$<br>
-$\text{Find } p^* \in \mathcal N(p) \text{such that} a(p^*, H_t(p^*) ) \text{maximized}  $
+$\text{Given } p \in \mathcal P$ <br>
+$\text{Find } p^* \in \mathcal N(p)  $
