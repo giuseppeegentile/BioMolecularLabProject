@@ -1,0 +1,148 @@
+   ********************************************
+   ***                                      ***
+   ***             FoldX 5 (c)              ***
+   ***                                      ***
+   ***     code by the FoldX Consortium     ***
+   ***                                      ***
+   ***     Jesper Borg, Frederic Rousseau   ***
+   ***    Joost Schymkowitz, Luis Serrano   ***
+   ***    Peter Vanhee, Erik Verschueren    ***
+   ***     Lies Baeten, Javier Delgado      ***
+   ***       and Francois Stricher          ***
+   *** and any other of the 9! permutations ***
+   ***   based on an original concept by    ***
+   ***   Raphael Guerois and Luis Serrano   ***
+   ********************************************
+
+1 models read: s_26_23_19.pdb
+1 models read: s_26_23_19.pdb
+Output: ./s_26_23_19.log
+
+BackHbond       =               -78.75
+SideHbond       =               -31.78
+Energy_VdW      =               -137.45
+Electro         =               -4.82
+Energy_SolvP    =               201.69
+Energy_SolvH    =               -181.15
+Energy_vdwclash =               7.57
+energy_torsion  =               4.60
+backbone_vdwclash=              89.15
+Entropy_sidec   =               78.22
+Entropy_mainc   =               192.83
+water bonds     =               0.00
+helix dipole    =               -3.67
+loop_entropy    =               0.00
+cis_bond        =               0.00
+disulfide       =               -15.27
+kn electrostatic=               0.00
+partial covalent interactions = -20.57
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  11.77
+
+
+BackHbond       =               -78.75
+SideHbond       =               -31.78
+Energy_VdW      =               -137.45
+Electro         =               -4.82
+Energy_SolvP    =               201.69
+Energy_SolvH    =               -181.15
+Energy_vdwclash =               7.57
+energy_torsion  =               4.60
+backbone_vdwclash=              89.15
+Entropy_sidec   =               78.22
+Entropy_mainc   =               192.83
+water bonds     =               0.00
+helix dipole    =               -3.67
+loop_entropy    =               0.00
+cis_bond        =               0.00
+disulfide       =               -15.27
+kn electrostatic=               0.00
+partial covalent interactions = -20.57
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  11.77
+
+Starting BuildModel
+Reading DA88N;
+Reading DA88A;
+Reading DA88K;
+Reading DA88V;
+Reading DA88Q;
+Reading DA88M;
+Reading DA88I;
+Reading DA88F;
+Reading DA88R;
+Reading DA88G;
+Reading DA88C;
+Reading DA88P;
+Reading DA88W;
+Reading DA88H;
+Reading DA88L;
+Reading DA88E;
+Reading DA88S;
+Reading DA88T;
+Reading DA88Y;
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Mutating residue = ASPA88 into ASN
+Mutating residue = ASPA88 into ALA
+Mutating residue = ASPA88 into LYS
+Mutating residue = ASPA88 into VAL
+Mutating residue = ASPA88 into GLN
+Mutating residue = ASPA88 into MET
+Mutating residue = ASPA88 into ILE
+Mutating residue = ASPA88 into PHE
+Mutating residue = ASPA88 into ARG
+Mutating residue = ASPA88 into GLY
+Mutating residue = ASPA88 into CYS
+Mutating residue = ASPA88 into PRO
+Mutating residue = ASPA88 into TRP
+Mutating residue = ASPA88 into HIS
+Mutating residue = ASPA88 into LEU
+Mutating residue = ASPA88 into GLU
+Mutating residue = ASPA88 into SER
+Mutating residue = ASPA88 into THR
+Mutating residue = ASPA88 into TYR
+Your file run OK
+End time of FoldX: Mon Nov 27 11:25:15 2023
+Total time spend: 107.51 seconds.
+validated file "s_26_23_19_1.pdb" => successfully finished
+validated file "s_26_23_19_2.pdb" => successfully finished
+validated file "s_26_23_19_3.pdb" => successfully finished
+validated file "s_26_23_19_4.pdb" => successfully finished
+validated file "s_26_23_19_5.pdb" => successfully finished
+validated file "s_26_23_19_6.pdb" => successfully finished
+validated file "s_26_23_19_7.pdb" => successfully finished
+validated file "s_26_23_19_8.pdb" => successfully finished
+validated file "s_26_23_19_9.pdb" => successfully finished
+validated file "s_26_23_19_10.pdb" => successfully finished
+validated file "s_26_23_19_11.pdb" => successfully finished
+validated file "s_26_23_19_12.pdb" => successfully finished
+validated file "s_26_23_19_13.pdb" => successfully finished
+validated file "s_26_23_19_14.pdb" => successfully finished
+validated file "s_26_23_19_15.pdb" => successfully finished
+validated file "s_26_23_19_16.pdb" => successfully finished
+validated file "s_26_23_19_17.pdb" => successfully finished
+validated file "s_26_23_19_18.pdb" => successfully finished
+validated file "s_26_23_19_19.pdb" => successfully finished
+Cleaning BuildModel...DONE
