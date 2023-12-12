@@ -1,0 +1,31 @@
+27 1
+
+MASS	1   Qa	72.0
+MASS 	2   Qd	72.0
+
+!ions
+!Na+ ion
+RESI NA		1.00 
+ATOM NA	  Qd	1.00   
+
+!K+ ion
+RESI K		1.00 
+ATOM K	  Qd	1.00  
+
+!Cl- ion
+RESI CL     	-1.00 
+ATOM CL	  Qa	-1.00   
+
+!Mg++ ion
+RESI MG		2.00 
+ATOM MG	  Qd	2.00   
+
+!Ca++ ion
+RESI CA		2.00 
+ATOM CA	  Qd	2.00   
+
+!ZN++ ion
+RESI ZN		2.00 
+ATOM ZN	  Qd	2.00 
+
+! end of ions
