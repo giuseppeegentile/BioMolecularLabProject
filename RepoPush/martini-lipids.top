@@ -1,0 +1,163 @@
+27 1
+
+! lipids
+RESI POPE       0.0	!	NH3
+ATOM NH3   Qd   1.0	!        |
+ATOM PO4   QaL -1.0	!	PO4
+ATOM GL1   NaL	0.0	!	 |
+ATOM GL2   NaL  0.0	!	GL1
+ATOM C1B   C1   0.0	!	 |  \
+ATOM C2B   C1   0.0	!	C1B  GL2
+ATOM D3B   C3C  0.0	!	 |    |
+ATOM C4B   C1   0.0	!	C2B  C1A
+ATOM C5B   C1   0.0	!	 |    |
+ATOM C1A   C1   0.0	!	D3B  C2A
+ATOM C2A   C1   0.0	!	 |    |
+ATOM C3A   C1   0.0	!	C4B  C3A
+ATOM C4A   C1   0.0	!	 |    |
+!				C5B  C4A
+!	
+BOND  NH3 PO4  PO4 GL1  GL1 GL2
+BOND  GL2 C1A  C1A C2A  C2A C3A  C3A C4A  
+BOND  GL1 C1B  C1B C2B  C2B D3B  D3B C4B  C4B C5B
+ANGLE PO4 GL1 GL2  PO4 GL1 C1B  GL1 C1B C2B 
+ANGLE C1B C2B D3B  C2B D3B C4B  D3B C4B C5B
+ANGLE GL2 C1A C2A  C1A C2A C3A  C2A C3A C4A
+!these angles are not defined in Martini:
+!ANGLE NH3 PO4 GL1  GL1 GL2 C1A  C1B GL1 GL2
+!one should take care to specify "auto none" when generating lipid segments in psfgen
+
+RESI POPG      -1.0	!	GLY
+ATOM GLY   P4   0.0	!        |
+ATOM PO4   QaL -1.0	!	PO4
+ATOM GL1   NaL	0.0	!	 |
+ATOM GL2   NaL  0.0	!	GL1
+ATOM C1B   C1   0.0	!	 |  \
+ATOM C2B   C1   0.0	!	C1B  GL2
+ATOM D3B   C3C  0.0	!	 |    |
+ATOM C4B   C1   0.0	!	C2B  C1A
+ATOM C5B   C1   0.0	!	 |    |
+ATOM C1A   C1   0.0	!	D3B  C2A
+ATOM C2A   C1   0.0	!	 |    |
+ATOM C3A   C1   0.0	!	C4B  C3A
+ATOM C4A   C1   0.0	!	 |    |
+!				C5B  C4A
+!
+BOND  GLY PO4  PO4 GL1  GL1 GL2
+BOND  GL2 C1A  C1A C2A  C2A C3A  C3A C4A  
+BOND  GL1 C1B  C1B C2B  C2B D3B  D3B C4B  C4B C5B
+ANGLE PO4 GL1 GL2  PO4 GL1 C1B  GL1 C1B C2B
+ANGLE C1B C2B D3B  C2B D3B C4B  D3B C4B C5B
+ANGLE GL2 C1A C2A  C1A C2A C3A  C2A C3A C4A
+!these angles are not defined in Martini:
+!ANGLE GLY PO4 GL1  GL1 GL2 C1A  C1B GL1 GL2
+!one should take care to specify "auto none" when generating lipid segments in psfgen
+
+RESI POPC       0.0	!	CHO
+ATOM CHO   Q0   1.0	!        |
+ATOM PO4   QaL  -1.0	!	PO4
+ATOM GL1   NaL	0.0	!	 |
+ATOM GL2   NaL  0.0	!	GL1
+ATOM C1B   C1   0.0	!	 |  \
+ATOM C2B   C1   0.0	!	C1B  GL2
+ATOM D3B   C3C  0.0	!	 |    |
+ATOM C4B   C1   0.0	!	C2B  C1A
+ATOM C5B   C1   0.0	!	 |    |
+ATOM C1A   C1   0.0	!	D3B  C2A
+ATOM C2A   C1   0.0	!	 |    |
+ATOM C3A   C1   0.0	!	C4B  C3A
+ATOM C4A   C1   0.0	!	 |    |
+!				C5B  C4A
+!
+BOND  CHO PO4  PO4 GL1  GL1 GL2
+BOND  GL2 C1A  C1A C2A  C2A C3A  C3A C4A  
+BOND  GL1 C1B  C1B C2B  C2B D3B  D3B C4B  C4B C5B
+ANGLE PO4 GL1 GL2  PO4 GL1 C1B  GL1 C1B C2B
+ANGLE C1B C2B D3B  C2B D3B C4B  D3B C4B C5B
+ANGLE GL2 C1A C2A  C1A C2A C3A  C2A C3A C4A
+!these angles are not defined in Martini:
+!ANGLE CHO PO4 GL1  GL1 GL2 C1A  C1B GL1 GL2
+!one should take care to specify "auto none" when generating lipid segments in psfgen
+
+RESI DPPC	0.0  	!	CHO
+ATOM CHO   Q0 	1.0	!        |
+ATOM PO4   QaL -1.0	!	PO4
+ATOM GL1   NaL	0.0	!	 |
+ATOM GL2   NaL	0.0	!	GL1
+ATOM C1A   C1	0.0	!	 |  \
+ATOM C2A   C1	0.0	!	C1A  GL2
+ATOM C3A   C1	0.0	!	 |    |
+ATOM C4A   C1	0.0	!	C2A  C1B
+ATOM C1B   C1	0.0	!	 |    |
+ATOM C2B   C1	0.0	!	C3A  C2B
+ATOM C3B   C1	0.0	!	 |    |
+ATOM C4B   C1	0.0	!	C4A  C3B
+!				      |
+!				     C4B
+!
+BOND CHO PO4  PO4 GL1  GL1 GL2
+BOND GL1 C1A  C1A C2A  C2A C3A  C3A C4A
+BOND GL2 C1B  C1B C2B  C2B C3B  C3B C4B
+ANGLE PO4 GL1 GL2  PO4 GL1 C1A  GL1 C1A C2A
+ANGLE C1A C2A C3A  C2A C3A C4A
+ANGLE GL2 C1B C3B  C1B C2B C3B  C2B C3B C4B
+!these angles are not defined in Martini:
+!ANGLE CHO PO4 GL1  GL1 GL2 C1B  C1A GL1 GL2
+!one should take care to specify "auto none" when generating lipid segments in psfgen
+
+RESI DOPE	0.0	!	NH3
+ATOM NH3   Qd	1.0	!        |
+ATOM PO4   QaL -1.0	!	PO4
+ATOM GL1   NaL	0.0	!	 |
+ATOM GL2   NaL 	0.0	!	GL1
+ATOM C1A   C1   0.0	!	 |  \
+ATOM C2A   C1   0.0	!	C1A  GL2
+ATOM D3A   C3C  0.0	!	 |    |
+ATOM C4A   C1   0.0	!	C2A  C1B
+ATOM C5A   C1   0.0	!	 |    |
+ATOM C1B   C1   0.0	!	D3A  C2B
+ATOM C2B   C1   0.0	!	 |    |
+ATOM D3B   C3C  0.0	!	C4A  D3B
+ATOM C4B   C1   0.0	!	 |    |
+ATOM C5B   C1   0.0	!	C5A  C4B
+!                                     |
+!                                    C5B
+BOND NH3 PO4  PO4 GL1  GL1 GL2
+BOND GL1 C1A  C1A C2A  C2A D3A  D3A C4A  C4A C5A
+BOND GL2 C1B  C1B C2B  C2B D3B  D3B C4B  C4B C5B
+ANGLE PO4 GL1 GL2  PO4 GL1 C1A  GL1 C1A C2A
+ANGLE C1A C2A D3A  C2A D3A C4A  D3A C4A C5A
+ANGLE GL2 C1B C2B  C1B C2B D3B  C2B D3B C4B  D3B C4B C5B
+!these angles are not defined in Martini:
+!ANGLE NH3 PO4 GL1  GL1 GL2 C1B  C1A GL1 GL2
+!one should take care to specify "auto none" when generating lipid segments in psfgen
+
+RESI DOPC	0.0  	!	CHO
+ATOM CHO   Q0	1.0	!        |
+ATOM PO4   QaL -1.0	!	PO4
+ATOM GL1   NaL	0.0	!	 |
+ATOM GL2   NaL 	0.0	!	GL1
+ATOM C1A   C1   0.0	!	 |  \
+ATOM C2A   C1   0.0	!	C1A  GL2
+ATOM D3A   C3C  0.0	!	 |    |
+ATOM C4A   C1   0.0	!	C2A  C1B
+ATOM C5A   C1   0.0	!	 |    |
+ATOM C1B   C1   0.0	!	D3A  C2B
+ATOM C2B   C1   0.0	!	 |    |
+ATOM D3B   C3C  0.0	!	C4A  D3B
+ATOM C4B   C1   0.0	!	 |    |
+ATOM C5B   C1   0.0	!	C5A  C4B
+!                                     |
+!                                    C5B
+BOND CHO PO4  PO4 GL1  GL1 GL2
+BOND GL1 C1A  C1A C2A  C2A D3A  D3A C4A  C4A C5A
+BOND GL2 C1B  C1B C2B  C2B D3B  D3B C4B  C4B C5B
+ANGLE PO4 GL1 GL2  PO4 GL1 C1A  GL1 C1A C2A
+ANGLE C1A C2A D3A  C2A D3A C4A  D3A C4A C5A
+ANGLE GL2 C1B C2B  C1B C2B D3B  C2B D3B C4B  D3B C4B C5B
+!these angles are not defined in Martini:
+!ANGLE CHO PO4 GL1  GL1 GL2 C1B  C1A GL1 GL2
+!one should take care to specify "auto none" when generating lipid segments in psfgen
+
+!end of lipids
+END

@@ -1,0 +1,224 @@
+   ********************************************
+   ***                                      ***
+   ***             FoldX 5 (c)              ***
+   ***                                      ***
+   ***     code by the FoldX Consortium     ***
+   ***                                      ***
+   ***     Jesper Borg, Frederic Rousseau   ***
+   ***    Joost Schymkowitz, Luis Serrano   ***
+   ***    Peter Vanhee, Erik Verschueren    ***
+   ***     Lies Baeten, Javier Delgado      ***
+   ***       and Francois Stricher          ***
+   *** and any other of the 9! permutations ***
+   ***   based on an original concept by    ***
+   ***   Raphael Guerois and Luis Serrano   ***
+   ********************************************
+
+1 models read: s_32_11.pdb
+1 models read: s_32_11.pdb
+Output: ./s_32_11.log
+
+BackHbond       =               -78.09
+SideHbond       =               -32.52
+Energy_VdW      =               -138.78
+Electro         =               -4.92
+Energy_SolvP    =               203.34
+Energy_SolvH    =               -183.24
+Energy_vdwclash =               9.32
+energy_torsion  =               4.69
+backbone_vdwclash=              89.15
+Entropy_sidec   =               79.48
+Entropy_mainc   =               192.36
+water bonds     =               0.00
+helix dipole    =               -3.45
+loop_entropy    =               0.00
+cis_bond        =               0.00
+disulfide       =               -15.27
+kn electrostatic=               0.00
+partial covalent interactions = -20.57
+Energy_Ionisation =             0.32
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  12.67
+
+
+BackHbond       =               -78.09
+SideHbond       =               -32.52
+Energy_VdW      =               -138.78
+Electro         =               -4.92
+Energy_SolvP    =               203.34
+Energy_SolvH    =               -183.24
+Energy_vdwclash =               9.32
+energy_torsion  =               4.69
+backbone_vdwclash=              89.15
+Entropy_sidec   =               79.48
+Entropy_mainc   =               192.36
+water bonds     =               0.00
+helix dipole    =               -3.45
+loop_entropy    =               0.00
+cis_bond        =               0.00
+disulfide       =               -15.27
+kn electrostatic=               0.00
+partial covalent interactions = -20.57
+Energy_Ionisation =             0.32
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  12.67
+
+Starting BuildModel
+Reading RA25W;
+Reading DA88E;
+Reading DA88V;
+Reading RA25I;
+Reading DA88Y;
+Reading DA88G;
+Reading DA88C;
+Reading RA25L;
+Reading DA88W;
+Reading RA25A;
+Reading RA25N;
+Reading RA25S;
+Reading RA25C;
+Reading RA25F;
+Reading RA25K;
+Reading RA25Q;
+Reading DA88A;
+Reading DA88K;
+Reading RA25H;
+Reading RA25E;
+Reading DA88M;
+Reading RA25V;
+Reading RA25G;
+Reading DA88H;
+Reading DA88I;
+Reading DA88N;
+Reading DA88T;
+Reading RA25Y;
+Reading RA25P;
+Reading DA88L;
+Reading DA88Q;
+Reading DA88F;
+Reading RA25D;
+Reading DA88R;
+Reading RA25T;
+Reading DA88P;
+Reading DA88S;
+Reading RA25M;
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ARGA25 has residue index 24
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ASPA88 has residue index 87
+Residue to Mutate ARGA25 has residue index 24
+Mutating residue = ARGA25 into TRP
+Mutating residue = ASPA88 into GLU
+Mutating residue = ASPA88 into VAL
+Mutating residue = ARGA25 into ILE
+Mutating residue = ASPA88 into TYR
+Mutating residue = ASPA88 into GLY
+Mutating residue = ASPA88 into CYS
+Mutating residue = ARGA25 into LEU
+Mutating residue = ASPA88 into TRP
+Mutating residue = ARGA25 into ALA
+Mutating residue = ARGA25 into ASN
+Mutating residue = ARGA25 into SER
+Mutating residue = ARGA25 into CYS
+Mutating residue = ARGA25 into PHE
+Mutating residue = ARGA25 into LYS
+Mutating residue = ARGA25 into GLN
+Mutating residue = ASPA88 into ALA
+Mutating residue = ASPA88 into LYS
+Mutating residue = ARGA25 into HIS
+Mutating residue = ARGA25 into GLU
+Mutating residue = ASPA88 into MET
+Mutating residue = ARGA25 into VAL
+Mutating residue = ARGA25 into GLY
+Mutating residue = ASPA88 into HIS
+Mutating residue = ASPA88 into ILE
+Mutating residue = ASPA88 into ASN
+Mutating residue = ASPA88 into THR
+Mutating residue = ARGA25 into TYR
+Mutating residue = ARGA25 into PRO
+Mutating residue = ASPA88 into LEU
+Mutating residue = ASPA88 into GLN
+Mutating residue = ASPA88 into PHE
+Mutating residue = ARGA25 into ASP
+Mutating residue = ASPA88 into ARG
+Mutating residue = ARGA25 into THR
+Mutating residue = ASPA88 into PRO
+Mutating residue = ASPA88 into SER
+Mutating residue = ARGA25 into MET
+Your file run OK
+End time of FoldX: Mon Nov 27 19:32:19 2023
+Total time spend: 147.90 seconds.
+validated file "s_32_11_1.pdb" => successfully finished
+validated file "s_32_11_2.pdb" => successfully finished
+validated file "s_32_11_3.pdb" => successfully finished
+validated file "s_32_11_4.pdb" => successfully finished
+validated file "s_32_11_5.pdb" => successfully finished
+validated file "s_32_11_6.pdb" => successfully finished
+validated file "s_32_11_7.pdb" => successfully finished
+validated file "s_32_11_8.pdb" => successfully finished
+validated file "s_32_11_9.pdb" => successfully finished
+validated file "s_32_11_10.pdb" => successfully finished
+validated file "s_32_11_11.pdb" => successfully finished
+validated file "s_32_11_12.pdb" => successfully finished
+validated file "s_32_11_13.pdb" => successfully finished
+validated file "s_32_11_14.pdb" => successfully finished
+validated file "s_32_11_15.pdb" => successfully finished
+validated file "s_32_11_16.pdb" => successfully finished
+validated file "s_32_11_17.pdb" => successfully finished
+validated file "s_32_11_18.pdb" => successfully finished
+validated file "s_32_11_19.pdb" => successfully finished
+validated file "s_32_11_20.pdb" => successfully finished
+validated file "s_32_11_21.pdb" => successfully finished
+validated file "s_32_11_22.pdb" => successfully finished
+validated file "s_32_11_23.pdb" => successfully finished
+validated file "s_32_11_24.pdb" => successfully finished
+validated file "s_32_11_25.pdb" => successfully finished
+validated file "s_32_11_26.pdb" => successfully finished
+validated file "s_32_11_27.pdb" => successfully finished
+validated file "s_32_11_28.pdb" => successfully finished
+validated file "s_32_11_29.pdb" => successfully finished
+validated file "s_32_11_30.pdb" => successfully finished
+validated file "s_32_11_31.pdb" => successfully finished
+validated file "s_32_11_32.pdb" => successfully finished
+validated file "s_32_11_33.pdb" => successfully finished
+validated file "s_32_11_34.pdb" => successfully finished
+validated file "s_32_11_35.pdb" => successfully finished
+validated file "s_32_11_36.pdb" => successfully finished
+validated file "s_32_11_37.pdb" => successfully finished
+validated file "s_32_11_38.pdb" => successfully finished
+Cleaning BuildModel...DONE

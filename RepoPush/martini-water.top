@@ -1,0 +1,14 @@
+27 1
+
+MASS	1   P4	72.0
+MASS 	2   BP4	72.0
+
+! water
+RESI H2O	0.00 
+ATOM W	  P4	0.00   
+
+! antifreeze
+RESI AF     	0.00 
+ATOM WAF  BP4	0.00   
+
+END
